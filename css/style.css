@@ -2,10 +2,36 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-} 
+}
+
+body{
+    font-family: 'Montaga',serif;
+}
 
 .header{
     width: 100%;
     padding: 8px;
     background-color: #4d194d;
+}
+
+.title{
+    text-decoration: none;
+    color:#f2f2f2;
+    display: flex;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-section-1{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.grid-img{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
