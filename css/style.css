@@ -20,7 +20,7 @@ p {
 
 .header {
     width: 100%;
-    padding: 12px;
+    padding: 16px;
     background-color: #1a1a1a;
 }
 
@@ -41,6 +41,16 @@ p {
     background-color: #333;
     color: #f2f2f2;
     padding: 40px;
+}
+
+.grid-img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.section-link {
+    color: #e68a00;
 }
 
 @media only screen and (min-width: 700px) {
@@ -69,16 +79,4 @@ p {
     .img-section-7 {
         grid-column: span 3;
     }
-}
-
-
-
-.grid-img {
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-.section-link {
-    color: #e68a00;
 }
