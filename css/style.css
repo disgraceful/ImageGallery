@@ -25,9 +25,34 @@ body{
     grid-template-columns: repeat(6, 1fr);
 }
 
-.grid-section-1{
+.text-section-1,
+.text-section-2{
+    background-color: #3d0f2e;
+    color: #fff;
+    padding: 40px;
+}
+
+.text-section-1{
     grid-row: span 2;
     grid-column: span 2;
+}
+
+.text-section-2{
+    grid-column: span 2;
+}
+
+
+.img-section-1{
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.img-section-6{
+    grid-column: span 2;
+}
+
+.img-section-7{
+    grid-column: span 3;
 }
 
 .grid-img{
@@ -35,3 +60,5 @@ body{
     width: 100%;
     display: block;
 }
+
+
